@@ -1,0 +1,23 @@
+<div class="container contain">
+    <div class="holder">
+        <div>
+            <h1 class="title">Custom Online</h1>
+            <h2 class="subtitle">Online Test Application</h2>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                 <div routerLink="/quiz" (click)="setQuizName('java')" class="quizOption">CoreJava</div> 
+            </div>
+            <div class="col-6">
+                <div routerLink="/quiz" (click)="setQuizName('javascript')" class="quizOption">JavaScript</div>
+            </div>
+            <div class="col-6">
+                <div  routerLink="/quiz" (click)="setQuizName('csharp')" class="quizOption">C#</div>
+            </div>
+
+            <div class="col-6">
+                <div  routerLink="/quiz" (click)="setQuizName('aspnet')" class="quizOption">ASP .Net</div>
+            </div>
+        </div>
+    </div>
+</div>

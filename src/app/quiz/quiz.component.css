@@ -1,0 +1,15 @@
+#quiz h2{
+ background-color:mediumspringgreen;
+ border-radius: 5px;
+ font-size: 25px solid;
+ height: 60px;
+ }
+.badge{
+    float: left;
+}
+.option{
+    background-color: #aec6db;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
